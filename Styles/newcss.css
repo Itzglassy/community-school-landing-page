@@ -1,0 +1,185 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: rgb(195, 195, 236);
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+} 
+header { 
+    border-bottom: 1px solid blue; 
+    border-collapse: collapse;
+    border-color: black;
+    font-weight: 300;
+    background-color: beige;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+nav h1{
+    
+    padding: 20px;
+    margin: 0px; 
+}
+
+.logo {
+        width: 80px;
+        height: 80px;
+        padding: 0px;
+        margin: 0px;
+        /* justify-self: flex-start; */
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    margin-left: 20%;
+    margin-right: auto;
+    text-align: center;
+   
+}
+h2 {
+    font-size:15px;
+    margin: 20px;
+    padding-left: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: oblique;
+}
+
+.container {
+    background-image:url( '../media2/acgsimage.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+    width: 600px;
+    font-style: oblique;
+    font-weight: 400px;
+    text-align: start;
+    padding-bottom: 10px;
+    border-bottom: 1px solid blue;
+}
+.purpose{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    padding:0px 20px;
+}
+.text {
+    color: black;
+    font-size: smaller;
+    font-weight: 100px;
+    padding-right: 20px;
+    padding-top: 20px;
+    top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.text2 {
+    text-align: justify;
+}
+button {
+    background-color: blue;
+    padding: 10px 20px;
+    color: #e8e4e4; 
+    border-radius: 100px;
+    display: flexbox;
+}
+.about_img{
+    background-image:url( '../media2/acgs header image.jpg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 500px;
+    width: 300px;
+    border-radius: 10px;
+}
+.aboutSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(195, 195, 236);
+    margin: 0%;
+    padding: 0%;
+    border-bottom: 1px solid blue;
+}
+.about_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    padding:0px 20px;
+}
+.layout {
+    display: flex;
+    grid-template-columns: 3,1fr;
+    padding: 7.5%;
+    border-bottom: 1px dotted blue;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    
+}
+.layout2 {
+    display: flex;
+    grid-template-columns: 3,1fr;
+    padding: 7.5%;
+    border-bottom: 1px dotted blue;
+    justify-content: space-between;
+    align-content: center;
+    background-color: rgb(127, 127, 240);
+    text-align: center;
+}
+footer {
+    background-color: blue;
+    font-style: italic;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: large;
+    border-collapse: collapse;
+    color: #e8e4e4;
+}
+.maindiv {
+    align-items: center;
+    justify-content: space-between;
+    display: flex; 
+}
+.connect {
+   text-align: end;
+    color: black;
+}
+h4 {
+    display: block;
+    margin-left: auto;
+    margin-right: 30%;
+}
+/* mystyles */
+
+.heroSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(195, 195, 236);
+    margin: 0%;
+    padding: 0%;
+    border-bottom: 1px solid blue;
+
+}
+/* If the screen size is 481px or less, set the font-size of <div> to 20px */
+@media only screen and (max-width:481px) {
+    div.example {
+        font-size: 80px;
+    }
+}
+/* If the screen size is 482px or less, st the font-size of <div> to 70px */
+@media screen {
+    
+}
