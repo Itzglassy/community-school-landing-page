@@ -173,13 +173,32 @@ h4 {
     border-bottom: 1px solid blue;
 
 }
-/* If the screen size is 481px or less, set the font-size of <div> to 20px */
-@media only screen and (max-width:481px) {
-    div.example {
-        font-size: 80px;
+/* for desktops and large screens */
+@media (min-width:1024px) {
+    body {max-width: 1022px; margin: auto;
+        font-size: 18px;}
+    }
+    
+/* for small screens and laptops */
+@media (max-width:1023px) {
+    body {
+        max-width: 1000px;
+        padding-left: 0%;
+        padding-right: 0%;
     }
 }
-/* If the screen size is 482px or less, st the font-size of <div> to 70px */
-@media screen {
+/* for ipads and tablets */
+@media (max-width:768px) {
+    body {
+        max-width: 730px;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}
+/* for mobile phones */
+@media (max-width:420px) {
     
+    body {
+        max-width: 95%;
+    }
 }
